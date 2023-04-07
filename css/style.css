@@ -8,7 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #fff;
   color: #2f3148;
@@ -1717,9 +1720,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+.speaker-box>img{
+  height: 100%;
+  width:100%;
+  /* object-fit: cover; */
+  
+  object-fit: fill;
+}
 .speaker-box{
   filter: grayscale(0.8);
   transition:transform .5s;
+
+  object-fit: fill;
 }
 .speaker-box:hover{
   filter: grayscale(0.2);
@@ -1730,4 +1743,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 .speaker-details{
   color:white;
   font-weight: 900;
+}
+.member-details{
+  margin-top: -70px;
+  /* text-align: center; */
+  padding-left: 10px;
+}
+.member-details>h3{
+  color:white;
+  font-weight:bolder;
+  font-size: 2rem;
+
+}
+.member-details>p{
+  margin-top: -30px;
+  color:white;
+  font-weight:bolder;
+  font-size: 2rem;
+
 }
