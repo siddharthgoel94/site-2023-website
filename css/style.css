@@ -1729,13 +1729,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   object-fit: fill;
 }
 .speaker-box{
-  filter: grayscale(0.8);
+  /* filter: grayscale(0.8); */
   transition:transform .5s;
 
   object-fit: fill;
 }
 .speaker-box:hover{
-  filter: grayscale(0.2);
+  /* filter: grayscale(0.2); */
   
   transform: scale(1.2);
   /* zoom: normal; */
