@@ -11,6 +11,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* scroll-behavior: smooth; */
 }
 body {
   background: #fff;
@@ -83,7 +84,7 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  transition: background 0.5s ease-in-out;
+  transition:  0.5s ease-in-out;
 }
 
 .back-to-top i {
@@ -92,13 +93,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #darkblue;
+  background: darkblue;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #darkblue;
+  background: darkblue;
   color: #fff;
 }
 
@@ -297,7 +298,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #darkblue;
+  background-color: darkblue;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -488,7 +489,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
   background-color: white;
-  opacity: 
+  /* opacity:  */
 }
 #cosmic{
   width: 650px;
@@ -1615,9 +1616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 20px 0;
   }
 
-  #contact .contact-phone {
-    
-  }
+ 
 }
 
 @media (min-width: 991px) {
@@ -1745,20 +1744,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 900;
 }
 .member-details{
-  margin-top: -70px;
+  color: #19328e;
+  text-align: left;
+  width:290px;
+  /* margin-top: -70px; */
   /* text-align: center; */
-  padding-left: 10px;
+  /* padding-left: 5px; */
+  
 }
 .member-details>h3{
-  color:white;
-  font-weight:bolder;
-  font-size: 2rem;
+  /* color:white; */
+  font-weight:800;
+  color: #000;
+  font-size:22px;
+  
 
 }
 .member-details>p{
-  margin-top: -30px;
-  color:white;
-  font-weight:bolder;
-  font-size: 2rem;
+  margin-top: -20px;
+  /* color:white; */
+  /* font-weight:bolder; */
+  font-size:20px;
+  color: #7c807d;
+  font-weight:500;
+  
 
+}
+.logo-1{
+  margin-top:-10px;
 }
